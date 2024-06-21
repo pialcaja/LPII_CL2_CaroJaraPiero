@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 21-06-2024 a las 05:33:54
+-- Tiempo de generación: 21-06-2024 a las 08:06:00
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -34,14 +34,17 @@ CREATE TABLE IF NOT EXISTS `tbl_productocl2` (
   `estadocl2` varchar(255) DEFAULT NULL,
   `descripcl2` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`idproductocl2`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
 
 --
 -- Volcado de datos para la tabla `tbl_productocl2`
 --
 
 INSERT INTO `tbl_productocl2` (`idproductocl2`, `nombrecl2`, `precioventacl2`, `preciocompcl2`, `estadocl2`, `descripcl2`) VALUES
-(1, 'Arroz', 4.9, 2, 'Con stock', 'Bolsa de 1kg.');
+(1, 'Arroz', 4.9, 2, 'Con stock', 'Bolsa de 1kg.'),
+(2, 'Harina', 100, 78, 'Agotado', 'Bolsa de 40kg.'),
+(3, 'Gomitas', 2.34, 0.1, 'En stock', 'Bolsa de 10gr.'),
+(4, 'Papitas Lays', 2.6, 1.3, 'En stock', 'Bolsa de 40gr.');
 
 -- --------------------------------------------------------
 
